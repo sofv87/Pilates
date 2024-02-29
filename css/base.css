@@ -1,0 +1,372 @@
+
+/* DISPLAY */
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.nav {
+  height: 55px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 14px;
+  color: #9E9586;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none; 
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 14px;
+  color: white;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 20px 13px 20px 10px;
+  text-decoration: none;
+  color: #9E9586;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: #9E9586;
+  color: white;
+}
+
+.nav > #nav-check {
+  display: none; }
+
+.button-button1 {     
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #9E9586; }
+
+.button-button1:link {
+  background-color: #9E9586;
+  color: #9E9586;
+}
+
+.button-button1:visited {
+  background-color: white;
+  color: white;
+}
+.button-button1:hover {
+  background-color: #c8bca7; 
+}
+.button-button1:active {
+  background-color: #9E9586; 
+  color: rgb(101, 81, 81);
+}
+
+.button-button1 > a:active {
+  background-color: #9E9586;
+  color:  #9E9586;   background-color: #9E9586; }
+  ;
+  
+#Boton2 {
+    color: rgb(67, 67, 67);
+    display:block;
+    text-align: center;  
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #0CB39B;
+    justify-content: space-between;
+    }
+
+.box-sizing-border#Boton2 {padding: 3% 0% 0% 0%}
+    a { color: white; }
+    a { color: white; }
+.button-button2 {    
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #0CB39B; 
+  }
+  
+  .button-button2:hover {
+    color: #4a4c4a; 
+  }
+
+.button-button2:link {
+    background-color: #0CB39B;
+    color: rgb(0, 0, 0);
+  }
+.button-button2:visited {
+    background-color: white;
+    color: rgb(0, 0, 0);}
+
+.button-button2:hover {
+    background-color: #9E9586;    color: rgb(0, 0, 0);}
+
+.button-button2:active {
+    background-color: #dad0bf;
+    color: rgb(0, 0, 0);}
+
+.button-button2 > a:active {
+    background-color: #e7e3de;
+    color: rgb(0, 0, 0);}
+
+#Nutri { 
+      display: flex;
+      justify-content: space-between;
+      color: rgb(67, 67, 67);
+      text-align: center;  
+      align-items: center;
+      padding: 0% 20% 0% 20%;
+      background-color:  #9E9586;
+      ;}
+#Quienes {
+  background-color: #ffffff;
+  padding: 0% 10% 0% 10%;
+  color: #423723;}
+#Metodo {
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0% 10% 0% 10%;color: #423723;}
+#Undia {
+    background-color: #ffffff;
+    padding: 0% 10% 0% 10%;
+    color: #423723;}
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1; }
+h1{font-family: "Azareth"; color: #0CB39B;
+  font-size: 3em;
+  line-height: 1; 
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+hgroup {
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20% 10% 30% 10%;}
+h2 {font-family: "Azareth";
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  font-weight: 100;color: #9E9586;
+  line-height: 1; 
+  text-transform: uppercase; }
+h3{font-family: "Azareth";
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  font-weight: 200;
+  line-height: 1; 
+  text-transform: none;}
+h4{font-family: "Azareth";
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-weight: 200;
+  line-height: 1; 
+  text-transform: uppercase;}
+h5{font-family: Azareth;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1; 
+  letter-spacing: 3px; color: #9E9586; }
+h6 {font-family: Azareth;
+  font-weight: 200;  
+  font-size: 2em;
+  letter-spacing: 2px;
+  line-height: 1; }
+a{font-family: "Azareth";
+  font-size: 1em;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1; 
+  font-weight: 200;
+  text-transform: uppercase;
+  text-decoration: none;}
+.linea {
+border-top: 1px solid rgb(0, 0, 0); 
+height: 0px; 
+max-width: 80%; 
+padding: 5% 0% 0% 0%; 
+margin:20px auto 0 auto ;}
+.container {
+margin-left:  30%; margin-right: 30%;
+border-radius: 5px;
+background-color: #0CB39B;
+padding: 20px;}
+#subject {font-family: "Azareth"; font-weight: 300; color: #4a4c4a;}
+#country {font-family: "Azareth"; font-weight: 300;}
+#fname, #lname {color: #15110f; font-family: "Azareth";}
+#fondo { 
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 0px solid #15110f; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical }
+input[type=submit] {
+  background-color: #15110f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;}
+input[type=submit]:hover {
+  background-color: #bbbaba; color: #4a4c4a;}
+footer {padding: 24px;  background-color: white;}
+#HomeBoton {color: white;}
+
+@media  screen and (min-width: 1081px){
+#Quienes { 
+text-align: center;  
+align-items: center}
+#Undia { display: flex;
+  text-align: left;  
+  align-items: center}
+#Metodo { 
+text-align: center;  align-items: center;}
+#Lugares { 
+color: rgb(255, 255, 255);
+text-align: center;  
+align-items: center;
+padding: 5% 0% 5% 0%;
+background-color: rgb(70, 80, 77)}
+.box-sizing-border { padding: 5%;}
+#Azareth {font-family: "Azareth";}
+hgroup {
+  flex-direction: row;
+  align-items: center;
+  text-align: left;background-image: url("../img/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20% 10% 30% 10%;}
+}
+
+@media screen and (max-width:1079px) {
+#Nutri { flex-direction: column;align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;  
+    ;background-color:  #9E9586}
+.nav > .nav-btn {
+display: inline-block;
+position: absolute;
+right: 0px;
+top: 0px; }
+.nav > .nav-btn > label {
+display: inline-block;
+width: 50px;
+height: 55px;
+padding: 13px;  }
+.nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+background-color: #b5b5b5;}
+.nav > .nav-btn > label > span {
+display: block;
+width: 25px;
+height: 12px;
+border-top: 1px solid  rgb(68, 48, 48);
+; }
+.nav > .nav-links {
+position: absolute;
+display: block;
+width: 100%;
+background-color:rgba(0, 0, 0, 0.858);
+height: 0px;
+transition: all 0.3s ease-in;
+overflow-y: hidden;
+top: 50px;
+left: 50%; }
+.nav > .nav-links > a {
+display: block;
+width: 100%; }
+.nav > #nav-check:not(:checked) ~ .nav-links {
+height: 0px;}
+.nav > #nav-check:checked ~ .nav-links {
+height: calc(50vh - 50px);
+overflow-y: auto;}
+.container {
+    margin-left:  10%; margin-right: 10%;
+    border-radius: 5px;
+    background-color: #0CB39B;
+    padding: 20px;}
+#Quienes {
+background-color: #ffffff;text-align: center;  align-items: center;
+flex-direction: column;}
+#Metodo {background-color: #ffffff;
+  text-align: center;  
+  align-items: center;
+  flex-direction: column;}
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: 1px;color: #9E9586;
+font-size: 2em;
+font-weight: 100;
+line-height: 1; ;
+align-items: center;}
+h3{font-family: "Azareth";
+  align-items: center;
+font-size: 1.2em;
+letter-spacing: 2px;
+font-weight: 200;
+line-height: 1; 
+text-transform: none;;
+align-items: center;}
+#Undia {display: flex;
+  background-color: #ffffff;text-align: center;  align-items: center;
+  flex-direction: column;}
+  hgroup {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;background-image: url("../img/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 10% 30% 10%;}
+  }
+
+  @media screen and (max-width:500px) {
+    hgroup {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-image: url("../img/Homeresponsive.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 5% 10% 95% 10%;}
+    }
